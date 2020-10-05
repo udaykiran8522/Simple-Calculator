@@ -1,6 +1,11 @@
 Hey, this is Uday Kiran, basically a developer, develops few short end sripts.
 This program is basically a simple calculator, which calculates some of the arithmetic operations in between two numbers.
 For operating operations in between multiple operands (i.e, 2 operands), like "+", "-", "x", "/", and "%". Use keywords "sum", "sub", "multi", "div", and "mod" respectively.
+For example, Command Line : "n1 op n2"
+                            Here, n1 = 1st number,
+                                  op = operation to be implemented,
+                                  n2 = 2nd number 
+                                 
 And for calculating the under root of any type follow the below steps.
 Command Line : "root n x"
               Here, n = number, on which under root gonna applied.
