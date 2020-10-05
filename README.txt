@@ -6,5 +6,5 @@ Command Line : "root n x"
               Here, n = number, on which under root gonna applied.
                     x = it's sayingly the prefix of the under root, that means "2", for the sqr. root and "3", for the cubth root, and so-on...
  And stay tuned.. Many more intersting and practically helpful tools gonna add into this script.
- For any suggestions and issues Contact me, through my personal blog 
+ For any suggestions and issues Contact me, through my personal blog  https://udaykiran8522.github.io/CV/
  Untill then Bye-Bye..!
