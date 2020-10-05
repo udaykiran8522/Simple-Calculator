@@ -18,6 +18,16 @@ elif x[2] == "mod":
     print ("Your answer for", "x[1] % x[3] is", int(x[1]) % int(x[3]))
 elif x[1] == "root":
     print ("Your answer for", x[3], "root", x[2], "is", int (x[2]) ** (1/int(x[3])))
+    
+elif x[1] == "dec-bin":
+    outcome = []
+    def convert (num):
+        if int(num) > 1:
+            convert(int(num) // 2)
+        outcome.append(int(num) % 2)
+    convert(x[2])
+    print (outcome)
+    
 
 
 
