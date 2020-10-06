@@ -27,6 +27,23 @@ elif x[1] == "dec-bin":
         outcome.append(int(num) % 2)
     convert(x[2])
     print (outcome)
+ elif x[1] == "area-square":
+    print("Your Area of the Square of side", x[2] + "units is", int(x[2]) ** 2)
+elif x[1] == "area-rectangle":
+    print ("Your Area of the Rectangle of length =", x[2] + "units and breadth =", x[3] + "units is", int(x[2]) * int(x[3])
+elif x[1] == "area-triangle":
+    print ("Your Area of the Triangle of base =", x[2] + "units and height =", x[3] + "units is", 1/2 * int(x[2]) * int(x[3]))
+elif x[1] == "area-circle":
+    pye = math.pi
+    print ("Your Area of the Circle of Radius =", x[2] + "units is", pye * x[2] * x[2])
+elif x[1] == "perimeter-square":
+    print("Your Perimeter of the Square of side", x[2] + "units is", int(x[2]) ** 4)
+elif x[1] == "perimeter-rectangle":
+    print("Your Perimeter of the Rectangle of length =", x[2] + "units and breadth =", x[3] + "units is", 2 * (int(x[2]) + int(x[3])))
+elif x[1] == "circumference":
+    pye = math.pi
+    print ("Your Circumference of the Circle of Radius =", x[2] + "units is", 2 * pye * x[2])
+
     
 
 
